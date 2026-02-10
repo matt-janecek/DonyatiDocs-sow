@@ -1,0 +1,2256 @@
+{
+  "version": "1.0.0",
+  "description": "SOW pricing reference data extracted from Donyati SOW templates",
+  "clients": [
+    "1800HANSONS",
+    "Acadia Healthcare",
+    "Adecco",
+    "Adecco(Oracle)",
+    "ADVICS",
+    "Aisin World Corp of America",
+    "AIT Worldwide Logistics",
+    "Amentum(SC&H)",
+    "AmTrust Financial Services",
+    "AmTrust Financial(Oracle)",
+    "Anthem(TNP Systems)",
+    "Apex Tool Group",
+    "Aptiv",
+    "Argo",
+    "Argo(Secure24)",
+    "Argon Medical Devices",
+    "Aspen Dental(Xoogify)",
+    "AT&T(Badal)",
+    "AT&T(Bravens)",
+    "AT&T(Data Piper)",
+    "AT&T(ZeroChaos)",
+    "AvMed(Secure24)",
+    "Avnet",
+    "Avnet(OneStream)",
+    "BCBS Michigan",
+    "Bell Canada(Badal)",
+    "Bell Canada(Data Piper)",
+    "Blue Ribbon(Trace3)",
+    "Body Control Systems",
+    "BorgWarner",
+    "BRAVVOX",
+    "Builders FirstSource",
+    "Bunge(Microland)",
+    "CarTech(SC&H)",
+    "Catholic Relief Services",
+    "CDM Smith",
+    "Central Insurance",
+    "Centric3",
+    "Century Aluminum",
+    "Charter Communications(Trace3)",
+    "Cintas(Trace3)",
+    "Clark County NV(Trace3)",
+    "CoBank(Oracle)",
+    "Comcast(Fincons)",
+    "Cooper Standard",
+    "CooperVision",
+    "CooperVision(Secure24)",
+    "Covetrus",
+    "Cretex Companies",
+    "Cummins",
+    "Dana",
+    "Databricks(Transatlantix)",
+    "Daymon Worldwide",
+    "Delphi Automotive",
+    "Delphi Automotive(American Partners)",
+    "Delphi Technologies",
+    "Delphi Technologies(Secure24)",
+    "Delta Air Lines",
+    "Duck Creek Technologies",
+    "Dun&Bradstreet(IVA Technos)",
+    "EchoStar(Data Piper)",
+    "Edwards Lifesciences",
+    "Equinox Gold",
+    "Experian(Xoogify)",
+    "Express Flooring",
+    "FDC",
+    "Fiserv",
+    "Fiserv India",
+    "Ford",
+    "Ford(Insight)",
+    "Gardner Denver(PARC)",
+    "Gentex",
+    "Gilead Sciences(ZS Associates)",
+    "Global Partners",
+    "Global Partners(Oracle)",
+    "GM Financial",
+    "GM Financial(Oracle India)",
+    "GM Financial(Oracle)",
+    "GM(Technosoft)",
+    "Google(Xoogify)",
+    "Graham Packaging(SC&H)",
+    "Grange Insurance",
+    "Grede Holdings",
+    "GREIF(Secure24)",
+    "GTS Direct",
+    "Guthrie(Oracle)",
+    "Harris Corporation",
+    "HealthEdge",
+    "ICF(SC&H)",
+    "IEEE",
+    "Illinois Tool Works",
+    "Ingersoll Rand(PARC)",
+    "Ingram Micro",
+    "IVA Technos",
+    "JM Huber",
+    "Joyson Safety Systems",
+    "JTEKT",
+    "Kemper Insurance(Lorven Technologies)",
+    "Kohler",
+    "KORE Wireless(Trace3)",
+    "Kuvare",
+    "L3Harris Technologies",
+    "Labrie Environmental Group",
+    "Lear",
+    "Lear(Secure24)",
+    "Lindsay Corporation",
+    "Little Caesar Enterprises",
+    "Lonestar Community College(GNC)",
+    "Lucid Motors",
+    "Lumen(Trace3)",
+    "MacLean Fogg",
+    "Macmillan Publishers",
+    "Magna International(Trace3)",
+    "Manitowoc",
+    "Marmon Group",
+    "Maverick Services",
+    "MDU Resources Group",
+    "MDU Resources Group(OneStream)",
+    "MechanAir",
+    "Meritor(Thirdware)",
+    "Microland",
+    "Mitsubishi Power Americas(OneStream)",
+    "Moodys",
+    "Moodys(Trace3)",
+    "MSSC",
+    "NCR(Data Piper)",
+    "Nevada Market",
+    "Newell Brands",
+    "Newell Rubbermaid",
+    "Nifco",
+    "Nokia",
+    "Nokia(Accenture)",
+    "Nokia(Atos)",
+    "Nokia(CTC)",
+    "Nokia(Data Piper)",
+    "Nokia(ECS)",
+    "North Highland(Trace3)",
+    "NSF International",
+    "Oakland County MI",
+    "OC Tanner(Trace3)",
+    "ofi(Deloitte India)",
+    "OSI Group(OneStream)",
+    "Perry Ellis",
+    "PODS(Trace3)",
+    "Qualcomm",
+    "Quanta Services",
+    "Raymond James",
+    "Rymax",
+    "SAIC",
+    "Santander Bank",
+    "SC&H",
+    "Scotiabank(Badal)",
+    "Sempra Energy(Alithya)",
+    "Shiloh Industries",
+    "Shutterfly",
+    "Siemens(Fincons)",
+    "SiriusPoint",
+    "Skyward",
+    "Springs Window Fashions",
+    "State of Tennessee(Data Piper)",
+    "Subaru",
+    "Summit Materials(SC&H)",
+    "Summit Polymers",
+    "Sunbelt Solomon",
+    "TECO Westinghouse",
+    "TELUS International(Badal)",
+    "TELUS International(Data Piper)",
+    "TELUS NGC(Badal)",
+    "Tenerity",
+    "Thales Group(SC&H)",
+    "TransUnion",
+    "Trean Insurance",
+    "TRW(Secure24)",
+    "TSI",
+    "TTI",
+    "Tucson Electric Power",
+    "Tucson Electric Power(OneStream)",
+    "Twelve Benefit",
+    "UNFI",
+    "Urban One(SC&H)",
+    "US Farathane",
+    "USAID(NTT)",
+    "Visteon",
+    "VW Credit",
+    "VWGoA",
+    "VWGoA(Secure24)",
+    "Wayne County MI(Oracle)",
+    "Waystar(Trace3)",
+    "Westlake Properties",
+    "WestRock",
+    "Wilsonart",
+    "ZF"
+  ],
+  "capabilities": [
+    "ARCS",
+    "AWS",
+    "Azure",
+    "Backend Technologies",
+    "BCP/DR",
+    "BI",
+    "Cloud Engineering",
+    "Cloud IP",
+    "Cloud PM",
+    "Consolidation Cloud",
+    "CPM IP",
+    "Cybersecurity",
+    "DART",
+    "Data Engineering",
+    "Data Governance",
+    "Data Transformation",
+    "Databricks",
+    "DBA",
+    "DevOps Technologies",
+    "DRM",
+    "Duck Creek Suite",
+    "EPM Cloud Suite",
+    "EPM IP",
+    "EPM PM",
+    "ERP PM",
+    "Essbase",
+    "FDMEE",
+    "Frontend Technologies",
+    "Google Cloud",
+    "HFM",
+    "Hyperion Suite",
+    "IT",
+    "Middleware",
+    "MuleSoft",
+    "OCI",
+    "OneStream",
+    "Oracle Data Integrator",
+    "Oracle EBS",
+    "Oracle ERP Cloud",
+    "Oracle HCM",
+    "Oracle JD Edwards",
+    "Oracle NetSuite ERP",
+    "Org Effectiveness",
+    "Partner",
+    "PCMCS",
+    "PeopleSoft",
+    "Planning",
+    "Planning Cloud",
+    "Power Apps",
+    "Power BI",
+    "PS EPM Cloud Suite",
+    "PS IT",
+    "PS Oracle ERP Cloud",
+    "QA",
+    "RPA",
+    "Salesforce",
+    "SAP BPC",
+    "SAP ERP",
+    "SAP S4 HANA",
+    "System Administration",
+    "TS Business Analyst",
+    "TS IP",
+    "Workday"
+  ],
+  "service_types": [
+    "Advisory",
+    "Application Rationalization",
+    "Application Support",
+    "Assessment",
+    "Business Analyst Support",
+    "Change Management",
+    "Deployment Support",
+    "Development",
+    "Divestiture/Spinoff Support",
+    "Enhancements",
+    "Finance Transformation",
+    "Functional Support",
+    "Implementation",
+    "Infrastructure Support",
+    "Licenses",
+    "Mergers/Acquisitions Support",
+    "Migration",
+    "Optimization",
+    "POC",
+    "Portfolio Management",
+    "Process Transformation",
+    "Program Management",
+    "Project Management",
+    "Referral",
+    "Solution Architecture",
+    "Strategy",
+    "Support",
+    "Testing",
+    "Upgrade"
+  ],
+  "contract_types": [
+    "T&M",
+    "T&M - On Demand",
+    "Fixed Fee",
+    "Milestone"
+  ],
+  "practices": [
+    "Cloud_Practice_USA",
+    "EPM_Practice_Canada_-_Consolidation",
+    "EPM_Practice_India",
+    "EPM_Practice_India_-_Consolidation",
+    "EPM_Practice_India_-_Integration",
+    "EPM_Practice_India_-_Planning",
+    "EPM_Practice_USA",
+    "EPM_Practice_USA_-_Consolidation",
+    "EPM_Practice_USA_-_Integration",
+    "EPM_Practice_USA_-_Managed_Services",
+    "EPM_Practice_USA_-_Planning",
+    "ERP_Practice_Argentina",
+    "ERP_Practice_Brazil",
+    "ERP_Practice_CzechRepublic",
+    "ERP_Practice_Germany",
+    "ERP_Practice_India",
+    "ERP_Practice_Mexico",
+    "ERP_Practice_Spain",
+    "ERP_Practice_USA",
+    "PS_Practice_USA",
+    "TS_Practice_India",
+    "TS_Practice_USA",
+    "Donyati_Products_USA",
+    "ICSub_Contractor_USA",
+    "ICSub_Contractor_India"
+  ],
+  "roles": [
+    "Application Developer",
+    "Application Developer - DI",
+    "Application Developer - FCC",
+    "Application Developer - PLN",
+    "Application Lead",
+    "Application Lead - FCC",
+    "Application Lead - PLN",
+    "Application Support Lead",
+    "Application Support Lead - EPB",
+    "Application Support Lead - FCC",
+    "Architect",
+    "Business/Data Analyst",
+    "Developer",
+    "DevOps Engineer",
+    "Engineer",
+    "Functional Lead",
+    "Integration Lead",
+    "Principal",
+    "Principal Architect",
+    "Program Lead",
+    "Program Manager",
+    "Project Coordinator",
+    "Project Manager",
+    "QA Tester - Automation",
+    "QA Tester - Manual",
+    "Security Engineer",
+    "Service Delivery Manager",
+    "Software Engineer",
+    "Solution Architect",
+    "Solution Architect - DI",
+    "Solution Architect - FCC",
+    "Solution Architect - PLN",
+    "Sr. Application Developer",
+    "Sr. Application Developer - DI",
+    "Sr. Application Developer - PLN",
+    "Sr. Application Lead",
+    "Sr. Application Lead - FCC",
+    "Sr. Application Lead - PLN",
+    "Sr. Application Support Lead",
+    "Sr. Application Support Lead - FCC",
+    "Sr. Architect",
+    "Sr. Change Manager",
+    "Sr. Data Engineer",
+    "Sr. DBA",
+    "Sr. Developer",
+    "Sr. Functional Lead",
+    "Sr. Integration Developer",
+    "Sr. Integration Lead",
+    "Sr. Program Lead",
+    "Sr. Program Manager",
+    "Sr. Project Manager",
+    "Sr. QA Tester - Automation",
+    "Sr. QA Tester - Manual",
+    "Sr. Software Engineer",
+    "Sr. Solution Architect",
+    "Sr. Solution Architect - FCC",
+    "Sr. Solution Architect - PLN",
+    "Sr. Technical Lead",
+    "Support Engineer",
+    "Technical Lead",
+    "Techno-Functional Finance Lead",
+    "Contractor 1",
+    "Contractor 2",
+    "Contractor 3",
+    "Contractor 4",
+    "Contractor 5",
+    "DART",
+    "EPM Cloud Assurance"
+  ],
+  "rates": {
+    "EPM_Practice_USA|Application Developer": {
+      "practice": "EPM_Practice_USA",
+      "role": "Application Developer",
+      "bill_rate": 215,
+      "cost": 125,
+      "location": "USA"
+    },
+    "EPM_Practice_USA|Project Manager": {
+      "practice": "EPM_Practice_USA",
+      "role": "Project Manager",
+      "bill_rate": 230,
+      "cost": 130,
+      "location": "USA"
+    },
+    "EPM_Practice_USA|Sr. Application Developer": {
+      "practice": "EPM_Practice_USA",
+      "role": "Sr. Application Developer",
+      "bill_rate": 240,
+      "cost": 135,
+      "location": "USA"
+    },
+    "EPM_Practice_USA|Sr. Project Manager": {
+      "practice": "EPM_Practice_USA",
+      "role": "Sr. Project Manager",
+      "bill_rate": 250,
+      "cost": 140,
+      "location": "USA"
+    },
+    "EPM_Practice_USA|Change Manager": {
+      "practice": "EPM_Practice_USA",
+      "role": "Change Manager",
+      "bill_rate": 265,
+      "cost": 145,
+      "location": "USA"
+    },
+    "EPM_Practice_USA|Sr. Change Manager": {
+      "practice": "EPM_Practice_USA",
+      "role": "Sr. Change Manager",
+      "bill_rate": 275,
+      "cost": 165,
+      "location": "USA"
+    },
+    "EPM_Practice_USA|Application Lead": {
+      "practice": "EPM_Practice_USA",
+      "role": "Application Lead",
+      "bill_rate": 265,
+      "cost": 145,
+      "location": "USA"
+    },
+    "EPM_Practice_USA|Functional Lead": {
+      "practice": "EPM_Practice_USA",
+      "role": "Functional Lead",
+      "bill_rate": 315,
+      "cost": 170,
+      "location": "USA"
+    },
+    "EPM_Practice_USA|Sr. Application Lead": {
+      "practice": "EPM_Practice_USA",
+      "role": "Sr. Application Lead",
+      "bill_rate": 290,
+      "cost": 160,
+      "location": "USA"
+    },
+    "EPM_Practice_USA|Solution Architect": {
+      "practice": "EPM_Practice_USA",
+      "role": "Solution Architect",
+      "bill_rate": 365,
+      "cost": 185,
+      "location": "USA"
+    },
+    "EPM_Practice_USA|Solution Architect - FCC": {
+      "practice": "EPM_Practice_USA",
+      "role": "Solution Architect - FCC",
+      "bill_rate": 365,
+      "cost": 185,
+      "location": "USA"
+    },
+    "EPM_Practice_USA|Sr. Solution Architect": {
+      "practice": "EPM_Practice_USA",
+      "role": "Sr. Solution Architect",
+      "bill_rate": 390,
+      "cost": 195,
+      "location": "USA"
+    },
+    "EPM_Practice_USA|Principal": {
+      "practice": "EPM_Practice_USA",
+      "role": "Principal",
+      "bill_rate": 415,
+      "cost": 205,
+      "location": "USA"
+    },
+    "EPM_Practice_USA|Principal Architect": {
+      "practice": "EPM_Practice_USA",
+      "role": "Principal Architect",
+      "bill_rate": 450,
+      "cost": 235,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Consolidation|Application Developer - FCC": {
+      "practice": "EPM_Practice_USA_-_Consolidation",
+      "role": "Application Developer - FCC",
+      "bill_rate": 215,
+      "cost": 125,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Consolidation|Sr. Application Developer - FCC": {
+      "practice": "EPM_Practice_USA_-_Consolidation",
+      "role": "Sr. Application Developer - FCC",
+      "bill_rate": 240,
+      "cost": 135,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Consolidation|Sr. Application Developer - ARC": {
+      "practice": "EPM_Practice_USA_-_Consolidation",
+      "role": "Sr. Application Developer - ARC",
+      "bill_rate": 240,
+      "cost": 135,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Consolidation|Application Lead - FCC": {
+      "practice": "EPM_Practice_USA_-_Consolidation",
+      "role": "Application Lead - FCC",
+      "bill_rate": 265,
+      "cost": 145,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Consolidation|Sr. Application Lead - FCC": {
+      "practice": "EPM_Practice_USA_-_Consolidation",
+      "role": "Sr. Application Lead - FCC",
+      "bill_rate": 290,
+      "cost": 160,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Consolidation|Solution Architect": {
+      "practice": "EPM_Practice_USA_-_Consolidation",
+      "role": "Solution Architect",
+      "bill_rate": 365,
+      "cost": 185,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Consolidation|Solution Architect - FCC": {
+      "practice": "EPM_Practice_USA_-_Consolidation",
+      "role": "Solution Architect - FCC",
+      "bill_rate": 365,
+      "cost": 185,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Consolidation|Sr. Solution Architect - FCC": {
+      "practice": "EPM_Practice_USA_-_Consolidation",
+      "role": "Sr. Solution Architect - FCC",
+      "bill_rate": 390,
+      "cost": 195,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Integration|Application Lead": {
+      "practice": "EPM_Practice_USA_-_Integration",
+      "role": "Application Lead",
+      "bill_rate": 265,
+      "cost": 145,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Integration|Sr. Application Support Lead": {
+      "practice": "EPM_Practice_USA_-_Integration",
+      "role": "Sr. Application Support Lead",
+      "bill_rate": 210,
+      "cost": 140,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Integration|Application Developer - DI": {
+      "practice": "EPM_Practice_USA_-_Integration",
+      "role": "Application Developer - DI",
+      "bill_rate": 215,
+      "cost": 125,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Integration|Sr. Application Developer - DI": {
+      "practice": "EPM_Practice_USA_-_Integration",
+      "role": "Sr. Application Developer - DI",
+      "bill_rate": 240,
+      "cost": 135,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Integration|Application Lead - DI": {
+      "practice": "EPM_Practice_USA_-_Integration",
+      "role": "Application Lead - DI",
+      "bill_rate": 265,
+      "cost": 145,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Integration|Sr. Application Lead - DI": {
+      "practice": "EPM_Practice_USA_-_Integration",
+      "role": "Sr. Application Lead - DI",
+      "bill_rate": 290,
+      "cost": 160,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Integration|Solution Architect - DI": {
+      "practice": "EPM_Practice_USA_-_Integration",
+      "role": "Solution Architect - DI",
+      "bill_rate": 365,
+      "cost": 185,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Integration|Sr. Solution Architect": {
+      "practice": "EPM_Practice_USA_-_Integration",
+      "role": "Sr. Solution Architect",
+      "bill_rate": 390,
+      "cost": 195,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Integration|Sr. Solution Architect - DI": {
+      "practice": "EPM_Practice_USA_-_Integration",
+      "role": "Sr. Solution Architect - DI",
+      "bill_rate": 390,
+      "cost": 195,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Managed_Services|Application Support Lead - FCC": {
+      "practice": "EPM_Practice_USA_-_Managed_Services",
+      "role": "Application Support Lead - FCC",
+      "bill_rate": 200,
+      "cost": 130,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Managed_Services|Sr. Application Lead - PLN": {
+      "practice": "EPM_Practice_USA_-_Managed_Services",
+      "role": "Sr. Application Lead - PLN",
+      "bill_rate": 290,
+      "cost": 160,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Managed_Services|Sr. Application Support Lead - FCC": {
+      "practice": "EPM_Practice_USA_-_Managed_Services",
+      "role": "Sr. Application Support Lead - FCC",
+      "bill_rate": 210,
+      "cost": 140,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Managed_Services|Sr. Application Lead - FCC": {
+      "practice": "EPM_Practice_USA_-_Managed_Services",
+      "role": "Sr. Application Lead - FCC",
+      "bill_rate": 290,
+      "cost": 160,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Managed_Services|Application Support Lead - PLN": {
+      "practice": "EPM_Practice_USA_-_Managed_Services",
+      "role": "Application Support Lead - PLN",
+      "bill_rate": 200,
+      "cost": 130,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Managed_Services|Sr. Application Support Lead": {
+      "practice": "EPM_Practice_USA_-_Managed_Services",
+      "role": "Sr. Application Support Lead",
+      "bill_rate": 210,
+      "cost": 140,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Managed_Services|Sr. Integration Lead": {
+      "practice": "EPM_Practice_USA_-_Managed_Services",
+      "role": "Sr. Integration Lead",
+      "bill_rate": 290,
+      "cost": 160,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Managed_Services|Sr. Reporting Lead": {
+      "practice": "EPM_Practice_USA_-_Managed_Services",
+      "role": "Sr. Reporting Lead",
+      "bill_rate": 290,
+      "cost": 160,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Managed_Services|Sr. Application Developer": {
+      "practice": "EPM_Practice_USA_-_Managed_Services",
+      "role": "Sr. Application Developer",
+      "bill_rate": 240,
+      "cost": 135,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Managed_Services|Application Lead": {
+      "practice": "EPM_Practice_USA_-_Managed_Services",
+      "role": "Application Lead",
+      "bill_rate": 265,
+      "cost": 145,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Managed_Services|Integration Lead": {
+      "practice": "EPM_Practice_USA_-_Managed_Services",
+      "role": "Integration Lead",
+      "bill_rate": 265,
+      "cost": 145,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Managed_Services|Reporting Lead": {
+      "practice": "EPM_Practice_USA_-_Managed_Services",
+      "role": "Reporting Lead",
+      "bill_rate": 265,
+      "cost": 145,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Managed_Services|Solution Architect": {
+      "practice": "EPM_Practice_USA_-_Managed_Services",
+      "role": "Solution Architect",
+      "bill_rate": 365,
+      "cost": 185,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Managed_Services|Sr. Solution Architect": {
+      "practice": "EPM_Practice_USA_-_Managed_Services",
+      "role": "Sr. Solution Architect",
+      "bill_rate": 390,
+      "cost": 195,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Managed_Services|Principal Architect": {
+      "practice": "EPM_Practice_USA_-_Managed_Services",
+      "role": "Principal Architect",
+      "bill_rate": 450,
+      "cost": 235,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Planning|Sr. Solution Architect": {
+      "practice": "EPM_Practice_USA_-_Planning",
+      "role": "Sr. Solution Architect",
+      "bill_rate": 390,
+      "cost": 195,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Planning|Application Developer": {
+      "practice": "EPM_Practice_USA_-_Planning",
+      "role": "Application Developer",
+      "bill_rate": 215,
+      "cost": 125,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Planning|Principal Architect": {
+      "practice": "EPM_Practice_USA_-_Planning",
+      "role": "Principal Architect",
+      "bill_rate": 450,
+      "cost": 235,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Planning|Integration Lead": {
+      "practice": "EPM_Practice_USA_-_Planning",
+      "role": "Integration Lead",
+      "bill_rate": 265,
+      "cost": 145,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Planning|Application Support Lead - EPB": {
+      "practice": "EPM_Practice_USA_-_Planning",
+      "role": "Application Support Lead - EPB",
+      "bill_rate": 200,
+      "cost": 130,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Planning|Sr. Application Support Lead - PLN": {
+      "practice": "EPM_Practice_USA_-_Planning",
+      "role": "Sr. Application Support Lead - PLN",
+      "bill_rate": 210,
+      "cost": 140,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Planning|Sr. Application Developer": {
+      "practice": "EPM_Practice_USA_-_Planning",
+      "role": "Sr. Application Developer",
+      "bill_rate": 240,
+      "cost": 135,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Planning|Application Developer - PLN": {
+      "practice": "EPM_Practice_USA_-_Planning",
+      "role": "Application Developer - PLN",
+      "bill_rate": 215,
+      "cost": 125,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Planning|Sr. Application Developer - PLN": {
+      "practice": "EPM_Practice_USA_-_Planning",
+      "role": "Sr. Application Developer - PLN",
+      "bill_rate": 240,
+      "cost": 135,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Planning|Application Lead - PLN": {
+      "practice": "EPM_Practice_USA_-_Planning",
+      "role": "Application Lead - PLN",
+      "bill_rate": 265,
+      "cost": 145,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Planning|Sr. Application Lead": {
+      "practice": "EPM_Practice_USA_-_Planning",
+      "role": "Sr. Application Lead",
+      "bill_rate": 290,
+      "cost": 160,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Planning|Solution Architect": {
+      "practice": "EPM_Practice_USA_-_Planning",
+      "role": "Solution Architect",
+      "bill_rate": 365,
+      "cost": 185,
+      "location": "USA"
+    },
+    "EPM_Practice_USA_-_Planning|Solution Architect - PLN": {
+      "practice": "EPM_Practice_USA_-_Planning",
+      "role": "Solution Architect - PLN",
+      "bill_rate": 365,
+      "cost": 185,
+      "location": "USA"
+    },
+    "EPM_Practice_Australia|Sr. Application Lead": {
+      "practice": "EPM_Practice_Australia",
+      "role": "Sr. Application Lead",
+      "bill_rate": 290,
+      "cost": 100,
+      "location": "Australia"
+    },
+    "EPM_Practice_Canada_Consolidation|Application Developer": {
+      "practice": "EPM_Practice_Canada_Consolidation",
+      "role": "Application Developer",
+      "bill_rate": 215,
+      "cost": 125,
+      "location": "Canada"
+    },
+    "EPM_Practice_India|Project Manager": {
+      "practice": "EPM_Practice_India",
+      "role": "Project Manager",
+      "bill_rate": 45,
+      "cost": 22,
+      "location": "India"
+    },
+    "EPM_Practice_India|Sr. Project Manager": {
+      "practice": "EPM_Practice_India",
+      "role": "Sr. Project Manager",
+      "bill_rate": 70,
+      "cost": 35,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Consolidation|Software Engineer": {
+      "practice": "EPM_Practice_India_-_Consolidation",
+      "role": "Software Engineer",
+      "bill_rate": 35,
+      "cost": 11,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Consolidation|Sr. Application Lead": {
+      "practice": "EPM_Practice_India_-_Consolidation",
+      "role": "Sr. Application Lead",
+      "bill_rate": 85,
+      "cost": 27,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Consolidation|Sr. Software Engineer": {
+      "practice": "EPM_Practice_India_-_Consolidation",
+      "role": "Sr. Software Engineer",
+      "bill_rate": 45,
+      "cost": 13,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Consolidation|Application Support Lead - FCC": {
+      "practice": "EPM_Practice_India_-_Consolidation",
+      "role": "Application Support Lead - FCC",
+      "bill_rate": 40,
+      "cost": 17,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Consolidation|Sr. Application Support Lead - FCC": {
+      "practice": "EPM_Practice_India_-_Consolidation",
+      "role": "Sr. Application Support Lead - FCC",
+      "bill_rate": 50,
+      "cost": 22,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Consolidation|Application Developer - FCC": {
+      "practice": "EPM_Practice_India_-_Consolidation",
+      "role": "Application Developer - FCC",
+      "bill_rate": 55,
+      "cost": 15,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Consolidation|Sr. Application Developer - FCC": {
+      "practice": "EPM_Practice_India_-_Consolidation",
+      "role": "Sr. Application Developer - FCC",
+      "bill_rate": 65,
+      "cost": 17,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Consolidation|Application Lead - FCC": {
+      "practice": "EPM_Practice_India_-_Consolidation",
+      "role": "Application Lead - FCC",
+      "bill_rate": 75,
+      "cost": 22,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Consolidation|Sr. Application Lead - FCC": {
+      "practice": "EPM_Practice_India_-_Consolidation",
+      "role": "Sr. Application Lead - FCC",
+      "bill_rate": 85,
+      "cost": 27,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Consolidation|Solution Architect - FCC": {
+      "practice": "EPM_Practice_India_-_Consolidation",
+      "role": "Solution Architect - FCC",
+      "bill_rate": 95,
+      "cost": 32,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Consolidation|Sr. Solution Architect - FCC": {
+      "practice": "EPM_Practice_India_-_Consolidation",
+      "role": "Sr. Solution Architect - FCC",
+      "bill_rate": 150,
+      "cost": 45,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Integration|Sr. Software Engineer": {
+      "practice": "EPM_Practice_India_-_Integration",
+      "role": "Sr. Software Engineer",
+      "bill_rate": 45,
+      "cost": 13,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Integration|Software Engineer": {
+      "practice": "EPM_Practice_India_-_Integration",
+      "role": "Software Engineer",
+      "bill_rate": 35,
+      "cost": 11,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Integration|Integration Lead": {
+      "practice": "EPM_Practice_India_-_Integration",
+      "role": "Integration Lead",
+      "bill_rate": 75,
+      "cost": 22,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Integration|Sr. Integration Developer": {
+      "practice": "EPM_Practice_India_-_Integration",
+      "role": "Sr. Integration Developer",
+      "bill_rate": 65,
+      "cost": 17,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Integration|Sr. Integration Lead": {
+      "practice": "EPM_Practice_India_-_Integration",
+      "role": "Sr. Integration Lead",
+      "bill_rate": 95,
+      "cost": 30,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Integration|Application Developer - DI": {
+      "practice": "EPM_Practice_India_-_Integration",
+      "role": "Application Developer - DI",
+      "bill_rate": 55,
+      "cost": 15,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Integration|Application Lead - DI": {
+      "practice": "EPM_Practice_India_-_Integration",
+      "role": "Application Lead - DI",
+      "bill_rate": 75,
+      "cost": 22,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Integration|Sr. Application Developer - DI": {
+      "practice": "EPM_Practice_India_-_Integration",
+      "role": "Sr. Application Developer - DI",
+      "bill_rate": 65,
+      "cost": 17,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Integration|Solution Architect - DI": {
+      "practice": "EPM_Practice_India_-_Integration",
+      "role": "Solution Architect - DI",
+      "bill_rate": 95,
+      "cost": 32,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Planning|Sr. Solution Architect": {
+      "practice": "EPM_Practice_India_-_Planning",
+      "role": "Sr. Solution Architect",
+      "bill_rate": 150,
+      "cost": 45,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Planning|Software Engineer": {
+      "practice": "EPM_Practice_India_-_Planning",
+      "role": "Software Engineer",
+      "bill_rate": 35,
+      "cost": 11,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Planning|Sr. Software Engineer": {
+      "practice": "EPM_Practice_India_-_Planning",
+      "role": "Sr. Software Engineer",
+      "bill_rate": 45,
+      "cost": 13,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Planning|Sr. Application Developer": {
+      "practice": "EPM_Practice_India_-_Planning",
+      "role": "Sr. Application Developer",
+      "bill_rate": 65,
+      "cost": 17,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Planning|Application Support Lead - PLN": {
+      "practice": "EPM_Practice_India_-_Planning",
+      "role": "Application Support Lead - PLN",
+      "bill_rate": 40,
+      "cost": 17,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Planning|Sr. Application Support Lead - PLN": {
+      "practice": "EPM_Practice_India_-_Planning",
+      "role": "Sr. Application Support Lead - PLN",
+      "bill_rate": 50,
+      "cost": 22,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Planning|Application Developer - PLN": {
+      "practice": "EPM_Practice_India_-_Planning",
+      "role": "Application Developer - PLN",
+      "bill_rate": 55,
+      "cost": 15,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Planning|Sr. Application Developer - PLN": {
+      "practice": "EPM_Practice_India_-_Planning",
+      "role": "Sr. Application Developer - PLN",
+      "bill_rate": 65,
+      "cost": 17,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Planning|Application Lead - PLN": {
+      "practice": "EPM_Practice_India_-_Planning",
+      "role": "Application Lead - PLN",
+      "bill_rate": 75,
+      "cost": 22,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Planning|Sr. Application Lead - PLN": {
+      "practice": "EPM_Practice_India_-_Planning",
+      "role": "Sr. Application Lead - PLN",
+      "bill_rate": 85,
+      "cost": 27,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Planning|Solution Architect - PLN": {
+      "practice": "EPM_Practice_India_-_Planning",
+      "role": "Solution Architect - PLN",
+      "bill_rate": 95,
+      "cost": 32,
+      "location": "India"
+    },
+    "EPM_Practice_India_-_Planning|Sr. Solution Architect - PLN": {
+      "practice": "EPM_Practice_India_-_Planning",
+      "role": "Sr. Solution Architect - PLN",
+      "bill_rate": 150,
+      "cost": 45,
+      "location": "India"
+    },
+    "ERP_Practice_USA|Project Coordinator": {
+      "practice": "ERP_Practice_USA",
+      "role": "Project Coordinator",
+      "bill_rate": 190,
+      "cost": 120,
+      "location": "USA"
+    },
+    "ERP_Practice_USA|Project Manager": {
+      "practice": "ERP_Practice_USA",
+      "role": "Project Manager",
+      "bill_rate": 230,
+      "cost": 130,
+      "location": "USA"
+    },
+    "ERP_Practice_USA|Sr. Project Manager": {
+      "practice": "ERP_Practice_USA",
+      "role": "Sr. Project Manager",
+      "bill_rate": 250,
+      "cost": 140,
+      "location": "USA"
+    },
+    "ERP_Practice_USA|Application Support Lead": {
+      "practice": "ERP_Practice_USA",
+      "role": "Application Support Lead",
+      "bill_rate": 200,
+      "cost": 130,
+      "location": "USA"
+    },
+    "ERP_Practice_USA|Sr. Application Support Lead": {
+      "practice": "ERP_Practice_USA",
+      "role": "Sr. Application Support Lead",
+      "bill_rate": 210,
+      "cost": 140,
+      "location": "USA"
+    },
+    "ERP_Practice_USA|Application Developer": {
+      "practice": "ERP_Practice_USA",
+      "role": "Application Developer",
+      "bill_rate": 215,
+      "cost": 125,
+      "location": "USA"
+    },
+    "ERP_Practice_USA|Sr. Application Developer": {
+      "practice": "ERP_Practice_USA",
+      "role": "Sr. Application Developer",
+      "bill_rate": 240,
+      "cost": 135,
+      "location": "USA"
+    },
+    "ERP_Practice_USA|Application Lead": {
+      "practice": "ERP_Practice_USA",
+      "role": "Application Lead",
+      "bill_rate": 265,
+      "cost": 145,
+      "location": "USA"
+    },
+    "ERP_Practice_USA|Sr. Application Lead": {
+      "practice": "ERP_Practice_USA",
+      "role": "Sr. Application Lead",
+      "bill_rate": 290,
+      "cost": 160,
+      "location": "USA"
+    },
+    "ERP_Practice_USA|Functional Lead": {
+      "practice": "ERP_Practice_USA",
+      "role": "Functional Lead",
+      "bill_rate": 315,
+      "cost": 170,
+      "location": "USA"
+    },
+    "ERP_Practice_USA|Solution Architect": {
+      "practice": "ERP_Practice_USA",
+      "role": "Solution Architect",
+      "bill_rate": 365,
+      "cost": 185,
+      "location": "USA"
+    },
+    "ERP_Practice_USA|Sr. Solution Architect": {
+      "practice": "ERP_Practice_USA",
+      "role": "Sr. Solution Architect",
+      "bill_rate": 390,
+      "cost": 195,
+      "location": "USA"
+    },
+    "ERP_Practice_USA|Principal": {
+      "practice": "ERP_Practice_USA",
+      "role": "Principal",
+      "bill_rate": 415,
+      "cost": 205,
+      "location": "USA"
+    },
+    "ERP_Practice_India|Project Coordinator": {
+      "practice": "ERP_Practice_India",
+      "role": "Project Coordinator",
+      "bill_rate": 35,
+      "cost": 17,
+      "location": "India"
+    },
+    "ERP_Practice_India|Project Manager": {
+      "practice": "ERP_Practice_India",
+      "role": "Project Manager",
+      "bill_rate": 45,
+      "cost": 22,
+      "location": "India"
+    },
+    "ERP_Practice_India|Application Support Lead": {
+      "practice": "ERP_Practice_India",
+      "role": "Application Support Lead",
+      "bill_rate": 40,
+      "cost": 17,
+      "location": "India"
+    },
+    "ERP_Practice_India|Sr. Application Support Lead": {
+      "practice": "ERP_Practice_India",
+      "role": "Sr. Application Support Lead",
+      "bill_rate": 50,
+      "cost": 22,
+      "location": "India"
+    },
+    "ERP_Practice_India|Software Engineer": {
+      "practice": "ERP_Practice_India",
+      "role": "Software Engineer",
+      "bill_rate": 35,
+      "cost": 11,
+      "location": "India"
+    },
+    "ERP_Practice_India|Sr. Software Engineer": {
+      "practice": "ERP_Practice_India",
+      "role": "Sr. Software Engineer",
+      "bill_rate": 45,
+      "cost": 13,
+      "location": "India"
+    },
+    "ERP_Practice_India|Application Developer": {
+      "practice": "ERP_Practice_India",
+      "role": "Application Developer",
+      "bill_rate": 55,
+      "cost": 15,
+      "location": "India"
+    },
+    "ERP_Practice_India|Sr. Application Developer": {
+      "practice": "ERP_Practice_India",
+      "role": "Sr. Application Developer",
+      "bill_rate": 65,
+      "cost": 17,
+      "location": "India"
+    },
+    "ERP_Practice_India|Application Lead": {
+      "practice": "ERP_Practice_India",
+      "role": "Application Lead",
+      "bill_rate": 75,
+      "cost": 22,
+      "location": "India"
+    },
+    "ERP_Practice_India|Sr. Application Lead": {
+      "practice": "ERP_Practice_India",
+      "role": "Sr. Application Lead",
+      "bill_rate": 85,
+      "cost": 27,
+      "location": "India"
+    },
+    "ERP_Practice_India|Solution Architect": {
+      "practice": "ERP_Practice_India",
+      "role": "Solution Architect",
+      "bill_rate": 95,
+      "cost": 32,
+      "location": "India"
+    },
+    "ERP_Practice_India|Sr. Solution Architect": {
+      "practice": "ERP_Practice_India",
+      "role": "Sr. Solution Architect",
+      "bill_rate": 105,
+      "cost": 37,
+      "location": "India"
+    },
+    "ERP_Practice_Argentina|Project Manager": {
+      "practice": "ERP_Practice_Argentina",
+      "role": "Project Manager",
+      "bill_rate": 80,
+      "cost": 62,
+      "location": "Argentina"
+    },
+    "ERP_Practice_Argentina|Sr. Project Manager": {
+      "practice": "ERP_Practice_Argentina",
+      "role": "Sr. Project Manager",
+      "bill_rate": 100,
+      "cost": 72,
+      "location": "Argentina"
+    },
+    "ERP_Practice_Argentina|Application Developer": {
+      "practice": "ERP_Practice_Argentina",
+      "role": "Application Developer",
+      "bill_rate": 90,
+      "cost": 67,
+      "location": "Argentina"
+    },
+    "ERP_Practice_Argentina|Sr. Application Developer": {
+      "practice": "ERP_Practice_Argentina",
+      "role": "Sr. Application Developer",
+      "bill_rate": 100,
+      "cost": 72,
+      "location": "Argentina"
+    },
+    "ERP_Practice_Argentina|Application Lead": {
+      "practice": "ERP_Practice_Argentina",
+      "role": "Application Lead",
+      "bill_rate": 105,
+      "cost": 72,
+      "location": "Argentina"
+    },
+    "ERP_Practice_Argentina|Sr. Application Lead": {
+      "practice": "ERP_Practice_Argentina",
+      "role": "Sr. Application Lead",
+      "bill_rate": 115,
+      "cost": 77,
+      "location": "Argentina"
+    },
+    "ERP_Practice_Argentina|Functional Lead": {
+      "practice": "ERP_Practice_Argentina",
+      "role": "Functional Lead",
+      "bill_rate": 100,
+      "cost": 82,
+      "location": "Argentina"
+    },
+    "ERP_Practice_Argentina|Sr. Functional Lead": {
+      "practice": "ERP_Practice_Argentina",
+      "role": "Sr. Functional Lead",
+      "bill_rate": 120,
+      "cost": 87,
+      "location": "Argentina"
+    },
+    "ERP_Practice_Brazil|Project Manager": {
+      "practice": "ERP_Practice_Brazil",
+      "role": "Project Manager",
+      "bill_rate": 80,
+      "cost": 40,
+      "location": "Brazil"
+    },
+    "ERP_Practice_Brazil|Sr. Project Manager": {
+      "practice": "ERP_Practice_Brazil",
+      "role": "Sr. Project Manager",
+      "bill_rate": 100,
+      "cost": 50,
+      "location": "Brazil"
+    },
+    "ERP_Practice_Brazil|Application Developer": {
+      "practice": "ERP_Practice_Brazil",
+      "role": "Application Developer",
+      "bill_rate": 90,
+      "cost": 45,
+      "location": "Brazil"
+    },
+    "ERP_Practice_Brazil|Sr. Application Developer": {
+      "practice": "ERP_Practice_Brazil",
+      "role": "Sr. Application Developer",
+      "bill_rate": 100,
+      "cost": 50,
+      "location": "Brazil"
+    },
+    "ERP_Practice_Brazil|Application Lead": {
+      "practice": "ERP_Practice_Brazil",
+      "role": "Application Lead",
+      "bill_rate": 105,
+      "cost": 55,
+      "location": "Brazil"
+    },
+    "ERP_Practice_Brazil|Sr. Application Lead": {
+      "practice": "ERP_Practice_Brazil",
+      "role": "Sr. Application Lead",
+      "bill_rate": 115,
+      "cost": 60,
+      "location": "Brazil"
+    },
+    "ERP_Practice_Brazil|Functional Lead": {
+      "practice": "ERP_Practice_Brazil",
+      "role": "Functional Lead",
+      "bill_rate": 100,
+      "cost": 50,
+      "location": "Brazil"
+    },
+    "ERP_Practice_Brazil|Sr. Functional Lead": {
+      "practice": "ERP_Practice_Brazil",
+      "role": "Sr. Functional Lead",
+      "bill_rate": 115,
+      "cost": 60,
+      "location": "Brazil"
+    },
+    "ERP_Practice_CzechRepublic|Sr. Project Manager": {
+      "practice": "ERP_Practice_CzechRepublic",
+      "role": "Sr. Project Manager",
+      "bill_rate": 160,
+      "cost": 88,
+      "location": "CzechRepublic"
+    },
+    "ERP_Practice_Germany|Project Manager": {
+      "practice": "ERP_Practice_Germany",
+      "role": "Project Manager",
+      "bill_rate": 265,
+      "cost": 170,
+      "location": "Germany"
+    },
+    "ERP_Practice_Germany|Principal": {
+      "practice": "ERP_Practice_Germany",
+      "role": "Principal",
+      "bill_rate": 365,
+      "cost": 235,
+      "location": "Germany"
+    },
+    "ERP_Practice_Italy|Application Developer": {
+      "practice": "ERP_Practice_Italy",
+      "role": "Application Developer",
+      "bill_rate": 165,
+      "cost": 105,
+      "location": "Italy"
+    },
+    "ERP_Practice_Italy|Sr. Application Developer": {
+      "practice": "ERP_Practice_Italy",
+      "role": "Sr. Application Developer",
+      "bill_rate": 180,
+      "cost": 115,
+      "location": "Italy"
+    },
+    "ERP_Practice_Italy|Functional Lead": {
+      "practice": "ERP_Practice_Italy",
+      "role": "Functional Lead",
+      "bill_rate": 195,
+      "cost": 125,
+      "location": "Italy"
+    },
+    "ERP_Practice_Italy|Technical Lead": {
+      "practice": "ERP_Practice_Italy",
+      "role": "Technical Lead",
+      "bill_rate": 195,
+      "cost": 125,
+      "location": "Italy"
+    },
+    "ERP_Practice_Italy|Sr. Functional Lead": {
+      "practice": "ERP_Practice_Italy",
+      "role": "Sr. Functional Lead",
+      "bill_rate": 210,
+      "cost": 135,
+      "location": "Italy"
+    },
+    "ERP_Practice_Italy|Sr. Technical Lead": {
+      "practice": "ERP_Practice_Italy",
+      "role": "Sr. Technical Lead",
+      "bill_rate": 210,
+      "cost": 135,
+      "location": "Italy"
+    },
+    "ERP_Practice_Italy|Solution Architect": {
+      "practice": "ERP_Practice_Italy",
+      "role": "Solution Architect",
+      "bill_rate": 225,
+      "cost": 145,
+      "location": "Italy"
+    },
+    "ERP_Practice_Italy|Sr. Solution Architect": {
+      "practice": "ERP_Practice_Italy",
+      "role": "Sr. Solution Architect",
+      "bill_rate": 250,
+      "cost": 160,
+      "location": "Italy"
+    },
+    "ERP_Practice_Mexico|Project Coordinator": {
+      "practice": "ERP_Practice_Mexico",
+      "role": "Project Coordinator",
+      "bill_rate": 60,
+      "cost": 30,
+      "location": "Mexico"
+    },
+    "ERP_Practice_Mexico|Project Manager": {
+      "practice": "ERP_Practice_Mexico",
+      "role": "Project Manager",
+      "bill_rate": 80,
+      "cost": 40,
+      "location": "Mexico"
+    },
+    "ERP_Practice_Mexico|Sr. Project Manager": {
+      "practice": "ERP_Practice_Mexico",
+      "role": "Sr. Project Manager",
+      "bill_rate": 100,
+      "cost": 50,
+      "location": "Mexico"
+    },
+    "ERP_Practice_Mexico|Application Developer": {
+      "practice": "ERP_Practice_Mexico",
+      "role": "Application Developer",
+      "bill_rate": 90,
+      "cost": 45,
+      "location": "Mexico"
+    },
+    "ERP_Practice_Mexico|Sr. Application Developer": {
+      "practice": "ERP_Practice_Mexico",
+      "role": "Sr. Application Developer",
+      "bill_rate": 100,
+      "cost": 50,
+      "location": "Mexico"
+    },
+    "ERP_Practice_Mexico|Application Lead": {
+      "practice": "ERP_Practice_Mexico",
+      "role": "Application Lead",
+      "bill_rate": 105,
+      "cost": 55,
+      "location": "Mexico"
+    },
+    "ERP_Practice_Mexico|Sr. Application Lead": {
+      "practice": "ERP_Practice_Mexico",
+      "role": "Sr. Application Lead",
+      "bill_rate": 115,
+      "cost": 60,
+      "location": "Mexico"
+    },
+    "ERP_Practice_Mexico|Functional Lead": {
+      "practice": "ERP_Practice_Mexico",
+      "role": "Functional Lead",
+      "bill_rate": 100,
+      "cost": 50,
+      "location": "Mexico"
+    },
+    "ERP_Practice_Mexico|Sr. Functional Lead": {
+      "practice": "ERP_Practice_Mexico",
+      "role": "Sr. Functional Lead",
+      "bill_rate": 115,
+      "cost": 60,
+      "location": "Mexico"
+    },
+    "ERP_Practice_Spain|Techno-Functional Finance Lead": {
+      "practice": "ERP_Practice_Spain",
+      "role": "Techno-Functional Finance Lead",
+      "bill_rate": 275,
+      "cost": 175,
+      "location": "Spain"
+    },
+    "ERP_Practice_Switzerland|Application Developer": {
+      "practice": "ERP_Practice_Switzerland",
+      "role": "Application Developer",
+      "bill_rate": 165,
+      "cost": 105,
+      "location": "Switzerland"
+    },
+    "ERP_Practice_Switzerland|Sr. Application Developer": {
+      "practice": "ERP_Practice_Switzerland",
+      "role": "Sr. Application Developer",
+      "bill_rate": 180,
+      "cost": 115,
+      "location": "Switzerland"
+    },
+    "ERP_Practice_Switzerland|Functional Lead": {
+      "practice": "ERP_Practice_Switzerland",
+      "role": "Functional Lead",
+      "bill_rate": 195,
+      "cost": 125,
+      "location": "Switzerland"
+    },
+    "ERP_Practice_Switzerland|Technical Lead": {
+      "practice": "ERP_Practice_Switzerland",
+      "role": "Technical Lead",
+      "bill_rate": 195,
+      "cost": 125,
+      "location": "Switzerland"
+    },
+    "ERP_Practice_Switzerland|Sr. Functional Lead": {
+      "practice": "ERP_Practice_Switzerland",
+      "role": "Sr. Functional Lead",
+      "bill_rate": 215,
+      "cost": 140,
+      "location": "Switzerland"
+    },
+    "ERP_Practice_Switzerland|Sr. Technical Lead": {
+      "practice": "ERP_Practice_Switzerland",
+      "role": "Sr. Technical Lead",
+      "bill_rate": 215,
+      "cost": 140,
+      "location": "Switzerland"
+    },
+    "ERP_Practice_Switzerland|Solution Architect": {
+      "practice": "ERP_Practice_Switzerland",
+      "role": "Solution Architect",
+      "bill_rate": 225,
+      "cost": 145,
+      "location": "Switzerland"
+    },
+    "ERP_Practice_Switzerland|Sr. Solution Architect": {
+      "practice": "ERP_Practice_Switzerland",
+      "role": "Sr. Solution Architect",
+      "bill_rate": 240,
+      "cost": 155,
+      "location": "Switzerland"
+    },
+    "Cloud_Practice_USA|Project Coordinator": {
+      "practice": "Cloud_Practice_USA",
+      "role": "Project Coordinator",
+      "bill_rate": 190,
+      "cost": 120,
+      "location": "USA"
+    },
+    "Cloud_Practice_USA|Project Manager": {
+      "practice": "Cloud_Practice_USA",
+      "role": "Project Manager",
+      "bill_rate": 240,
+      "cost": 140,
+      "location": "USA"
+    },
+    "Cloud_Practice_USA|Engineer": {
+      "practice": "Cloud_Practice_USA",
+      "role": "Engineer",
+      "bill_rate": 240,
+      "cost": 130,
+      "location": "USA"
+    },
+    "Cloud_Practice_USA|Program Manager": {
+      "practice": "Cloud_Practice_USA",
+      "role": "Program Manager",
+      "bill_rate": 250,
+      "cost": 150,
+      "location": "USA"
+    },
+    "Cloud_Practice_USA|Developer": {
+      "practice": "Cloud_Practice_USA",
+      "role": "Developer",
+      "bill_rate": 265,
+      "cost": 150,
+      "location": "USA"
+    },
+    "Cloud_Practice_USA|Architect": {
+      "practice": "Cloud_Practice_USA",
+      "role": "Architect",
+      "bill_rate": 300,
+      "cost": 160,
+      "location": "USA"
+    },
+    "Cloud_Practice_USA|Program Lead": {
+      "practice": "Cloud_Practice_USA",
+      "role": "Program Lead",
+      "bill_rate": 365,
+      "cost": 170,
+      "location": "USA"
+    },
+    "Cloud_Practice_USA|Sr. Program Lead": {
+      "practice": "Cloud_Practice_USA",
+      "role": "Sr. Program Lead",
+      "bill_rate": 375,
+      "cost": 180,
+      "location": "USA"
+    },
+    "Cloud_Practice_India|Associate": {
+      "practice": "Cloud_Practice_India",
+      "role": "Associate",
+      "bill_rate": 35,
+      "cost": 11,
+      "location": "India"
+    },
+    "Cloud_Practice_India|Engineer": {
+      "practice": "Cloud_Practice_India",
+      "role": "Engineer",
+      "bill_rate": 40,
+      "cost": 17,
+      "location": "India"
+    },
+    "Cloud_Practice_India|Developer": {
+      "practice": "Cloud_Practice_India",
+      "role": "Developer",
+      "bill_rate": 50,
+      "cost": 22,
+      "location": "India"
+    },
+    "Cloud_Practice_India|Architect": {
+      "practice": "Cloud_Practice_India",
+      "role": "Architect",
+      "bill_rate": 60,
+      "cost": 27,
+      "location": "India"
+    },
+    "Cloud_Practice_India|Associate Cloud Engineer": {
+      "practice": "Cloud_Practice_India",
+      "role": "Associate Cloud Engineer",
+      "bill_rate": 125,
+      "cost": 65,
+      "location": "India"
+    },
+    "PS_Practice_USA|DevOps Engineer": {
+      "practice": "PS_Practice_USA",
+      "role": "DevOps Engineer",
+      "bill_rate": 135,
+      "cost": 105,
+      "location": "USA"
+    },
+    "PS_Practice_USA|Project Coordinator": {
+      "practice": "PS_Practice_USA",
+      "role": "Project Coordinator",
+      "bill_rate": 190,
+      "cost": 120,
+      "location": "USA"
+    },
+    "PS_Practice_USA|Application Support Lead": {
+      "practice": "PS_Practice_USA",
+      "role": "Application Support Lead",
+      "bill_rate": 200,
+      "cost": 130,
+      "location": "USA"
+    },
+    "PS_Practice_USA|Sr. Application Support Lead": {
+      "practice": "PS_Practice_USA",
+      "role": "Sr. Application Support Lead",
+      "bill_rate": 210,
+      "cost": 140,
+      "location": "USA"
+    },
+    "PS_Practice_USA|Application Developer": {
+      "practice": "PS_Practice_USA",
+      "role": "Application Developer",
+      "bill_rate": 215,
+      "cost": 125,
+      "location": "USA"
+    },
+    "PS_Practice_USA|Project Manager": {
+      "practice": "PS_Practice_USA",
+      "role": "Project Manager",
+      "bill_rate": 230,
+      "cost": 130,
+      "location": "USA"
+    },
+    "PS_Practice_USA|Sr. Application Developer": {
+      "practice": "PS_Practice_USA",
+      "role": "Sr. Application Developer",
+      "bill_rate": 240,
+      "cost": 135,
+      "location": "USA"
+    },
+    "PS_Practice_USA|Sr. Project Manager": {
+      "practice": "PS_Practice_USA",
+      "role": "Sr. Project Manager",
+      "bill_rate": 250,
+      "cost": 140,
+      "location": "USA"
+    },
+    "PS_Practice_USA|Application Lead": {
+      "practice": "PS_Practice_USA",
+      "role": "Application Lead",
+      "bill_rate": 265,
+      "cost": 145,
+      "location": "USA"
+    },
+    "PS_Practice_USA|Program Manager": {
+      "practice": "PS_Practice_USA",
+      "role": "Program Manager",
+      "bill_rate": 265,
+      "cost": 145,
+      "location": "USA"
+    },
+    "PS_Practice_USA|Sr. Program Manager": {
+      "practice": "PS_Practice_USA",
+      "role": "Sr. Program Manager",
+      "bill_rate": 275,
+      "cost": 155,
+      "location": "USA"
+    },
+    "PS_Practice_USA|Sr. Application Lead": {
+      "practice": "PS_Practice_USA",
+      "role": "Sr. Application Lead",
+      "bill_rate": 290,
+      "cost": 160,
+      "location": "USA"
+    },
+    "PS_Practice_USA|Functional Lead": {
+      "practice": "PS_Practice_USA",
+      "role": "Functional Lead",
+      "bill_rate": 315,
+      "cost": 170,
+      "location": "USA"
+    },
+    "PS_Practice_USA|Solution Architect": {
+      "practice": "PS_Practice_USA",
+      "role": "Solution Architect",
+      "bill_rate": 365,
+      "cost": 185,
+      "location": "USA"
+    },
+    "PS_Practice_USA|Sr. Solution Architect": {
+      "practice": "PS_Practice_USA",
+      "role": "Sr. Solution Architect",
+      "bill_rate": 390,
+      "cost": 195,
+      "location": "USA"
+    },
+    "PS_Practice_USA|Principal": {
+      "practice": "PS_Practice_USA",
+      "role": "Principal",
+      "bill_rate": 415,
+      "cost": 205,
+      "location": "USA"
+    },
+    "PS_Practice_India|Project Coordinator": {
+      "practice": "PS_Practice_India",
+      "role": "Project Coordinator",
+      "bill_rate": 35,
+      "cost": 17,
+      "location": "India"
+    },
+    "PS_Practice_India|Software Engineer": {
+      "practice": "PS_Practice_India",
+      "role": "Software Engineer",
+      "bill_rate": 35,
+      "cost": 11,
+      "location": "India"
+    },
+    "PS_Practice_India|Application Support Lead": {
+      "practice": "PS_Practice_India",
+      "role": "Application Support Lead",
+      "bill_rate": 40,
+      "cost": 17,
+      "location": "India"
+    },
+    "PS_Practice_India|Project Manager": {
+      "practice": "PS_Practice_India",
+      "role": "Project Manager",
+      "bill_rate": 45,
+      "cost": 22,
+      "location": "India"
+    },
+    "PS_Practice_India|Sr. Software Engineer": {
+      "practice": "PS_Practice_India",
+      "role": "Sr. Software Engineer",
+      "bill_rate": 45,
+      "cost": 13,
+      "location": "India"
+    },
+    "PS_Practice_India|Sr. Application Support Lead": {
+      "practice": "PS_Practice_India",
+      "role": "Sr. Application Support Lead",
+      "bill_rate": 50,
+      "cost": 22,
+      "location": "India"
+    },
+    "PS_Practice_India|Application Developer": {
+      "practice": "PS_Practice_India",
+      "role": "Application Developer",
+      "bill_rate": 55,
+      "cost": 15,
+      "location": "India"
+    },
+    "PS_Practice_India|Sr. Application Developer": {
+      "practice": "PS_Practice_India",
+      "role": "Sr. Application Developer",
+      "bill_rate": 65,
+      "cost": 17,
+      "location": "India"
+    },
+    "PS_Practice_India|Application Lead": {
+      "practice": "PS_Practice_India",
+      "role": "Application Lead",
+      "bill_rate": 75,
+      "cost": 22,
+      "location": "India"
+    },
+    "PS_Practice_India|Sr. Application Lead": {
+      "practice": "PS_Practice_India",
+      "role": "Sr. Application Lead",
+      "bill_rate": 85,
+      "cost": 27,
+      "location": "India"
+    },
+    "PS_Practice_India|Solution Architect": {
+      "practice": "PS_Practice_India",
+      "role": "Solution Architect",
+      "bill_rate": 95,
+      "cost": 32,
+      "location": "India"
+    },
+    "PS_Practice_India|Sr. Solution Architect": {
+      "practice": "PS_Practice_India",
+      "role": "Sr. Solution Architect",
+      "bill_rate": 105,
+      "cost": 37,
+      "location": "India"
+    },
+    "TS_Practice_USA|QA Tester - Manual": {
+      "practice": "TS_Practice_USA",
+      "role": "QA Tester - Manual",
+      "bill_rate": 115,
+      "cost": 90,
+      "location": "USA"
+    },
+    "TS_Practice_USA|Sr. QA Tester - Manual": {
+      "practice": "TS_Practice_USA",
+      "role": "Sr. QA Tester - Manual",
+      "bill_rate": 120,
+      "cost": 95,
+      "location": "USA"
+    },
+    "TS_Practice_USA|Business/Data Analyst": {
+      "practice": "TS_Practice_USA",
+      "role": "Business/Data Analyst",
+      "bill_rate": 125,
+      "cost": 100,
+      "location": "USA"
+    },
+    "TS_Practice_USA|Sr. QA Tester - Automation": {
+      "practice": "TS_Practice_USA",
+      "role": "Sr. QA Tester - Automation",
+      "bill_rate": 135,
+      "cost": 105,
+      "location": "USA"
+    },
+    "TS_Practice_USA|Security Engineer": {
+      "practice": "TS_Practice_USA",
+      "role": "Security Engineer",
+      "bill_rate": 140,
+      "cost": 110,
+      "location": "USA"
+    },
+    "TS_Practice_USA|Developer": {
+      "practice": "TS_Practice_USA",
+      "role": "Developer",
+      "bill_rate": 150,
+      "cost": 110,
+      "location": "USA"
+    },
+    "TS_Practice_USA|Sr. DevOps Engineer": {
+      "practice": "TS_Practice_USA",
+      "role": "Sr. DevOps Engineer",
+      "bill_rate": 165,
+      "cost": 120,
+      "location": "USA"
+    },
+    "TS_Practice_USA|Sr. Developer": {
+      "practice": "TS_Practice_USA",
+      "role": "Sr. Developer",
+      "bill_rate": 165,
+      "cost": 120,
+      "location": "USA"
+    },
+    "TS_Practice_USA|Support Lead": {
+      "practice": "TS_Practice_USA",
+      "role": "Support Lead",
+      "bill_rate": 180,
+      "cost": 125,
+      "location": "USA"
+    },
+    "TS_Practice_USA|Sr. DBA": {
+      "practice": "TS_Practice_USA",
+      "role": "Sr. DBA",
+      "bill_rate": 180,
+      "cost": 125,
+      "location": "USA"
+    },
+    "TS_Practice_USA|Sr. Salesforce Developer": {
+      "practice": "TS_Practice_USA",
+      "role": "Sr. Salesforce Developer",
+      "bill_rate": 190,
+      "cost": 130,
+      "location": "USA"
+    },
+    "TS_Practice_USA|Scrum Master": {
+      "practice": "TS_Practice_USA",
+      "role": "Scrum Master",
+      "bill_rate": 195,
+      "cost": 120,
+      "location": "USA"
+    },
+    "TS_Practice_USA|Sr. Data Engineer": {
+      "practice": "TS_Practice_USA",
+      "role": "Sr. Data Engineer",
+      "bill_rate": 200,
+      "cost": 140,
+      "location": "USA"
+    },
+    "TS_Practice_USA|Technical Lead": {
+      "practice": "TS_Practice_USA",
+      "role": "Technical Lead",
+      "bill_rate": 210,
+      "cost": 150,
+      "location": "USA"
+    },
+    "TS_Practice_USA|Architect": {
+      "practice": "TS_Practice_USA",
+      "role": "Architect",
+      "bill_rate": 230,
+      "cost": 160,
+      "location": "USA"
+    },
+    "TS_Practice_USA|Project Manager": {
+      "practice": "TS_Practice_USA",
+      "role": "Project Manager",
+      "bill_rate": 230,
+      "cost": 130,
+      "location": "USA"
+    },
+    "TS_Practice_USA|Sr. Architect": {
+      "practice": "TS_Practice_USA",
+      "role": "Sr. Architect",
+      "bill_rate": 250,
+      "cost": 195,
+      "location": "USA"
+    },
+    "TS_Practice_USA|Program Manager": {
+      "practice": "TS_Practice_USA",
+      "role": "Program Manager",
+      "bill_rate": 250,
+      "cost": 150,
+      "location": "USA"
+    },
+    "TS_Practice_India|Software Engineer": {
+      "practice": "TS_Practice_India",
+      "role": "Software Engineer",
+      "bill_rate": 30,
+      "cost": 12,
+      "location": "India"
+    },
+    "TS_Practice_India|Sr. Software Engineer": {
+      "practice": "TS_Practice_India",
+      "role": "Sr. Software Engineer",
+      "bill_rate": 45,
+      "cost": 13,
+      "location": "India"
+    },
+    "TS_Practice_India|Developer": {
+      "practice": "TS_Practice_India",
+      "role": "Developer",
+      "bill_rate": 35,
+      "cost": 15,
+      "location": "India"
+    },
+    "TS_Practice_India|QA Tester - Automation": {
+      "practice": "TS_Practice_India",
+      "role": "QA Tester - Automation",
+      "bill_rate": 35,
+      "cost": 17,
+      "location": "India"
+    },
+    "TS_Practice_India|Sr. QA Tester - Manual": {
+      "practice": "TS_Practice_India",
+      "role": "Sr. QA Tester - Manual",
+      "bill_rate": 35,
+      "cost": 17,
+      "location": "India"
+    },
+    "TS_Practice_India|QA Tester - Manual": {
+      "practice": "TS_Practice_India",
+      "role": "QA Tester - Manual",
+      "bill_rate": 35,
+      "cost": 15,
+      "location": "India"
+    },
+    "TS_Practice_India|Sr. Support Engineer": {
+      "practice": "TS_Practice_India",
+      "role": "Sr. Support Engineer",
+      "bill_rate": 35,
+      "cost": 17,
+      "location": "India"
+    },
+    "TS_Practice_India|Support Engineer": {
+      "practice": "TS_Practice_India",
+      "role": "Support Engineer",
+      "bill_rate": 35,
+      "cost": 15,
+      "location": "India"
+    },
+    "TS_Practice_India|Security Engineer": {
+      "practice": "TS_Practice_India",
+      "role": "Security Engineer",
+      "bill_rate": 35,
+      "cost": 15,
+      "location": "India"
+    },
+    "TS_Practice_India|DevOps Engineer": {
+      "practice": "TS_Practice_India",
+      "role": "DevOps Engineer",
+      "bill_rate": 40,
+      "cost": 19,
+      "location": "India"
+    },
+    "TS_Practice_India|Sr. QA Tester - Automation": {
+      "practice": "TS_Practice_India",
+      "role": "Sr. QA Tester - Automation",
+      "bill_rate": 40,
+      "cost": 19,
+      "location": "India"
+    },
+    "TS_Practice_India|Data Engineer": {
+      "practice": "TS_Practice_India",
+      "role": "Data Engineer",
+      "bill_rate": 45,
+      "cost": 22,
+      "location": "India"
+    },
+    "TS_Practice_India|Sr. DBA": {
+      "practice": "TS_Practice_India",
+      "role": "Sr. DBA",
+      "bill_rate": 45,
+      "cost": 22,
+      "location": "India"
+    },
+    "TS_Practice_India|Business/Data Analyst": {
+      "practice": "TS_Practice_India",
+      "role": "Business/Data Analyst",
+      "bill_rate": 45,
+      "cost": 22,
+      "location": "India"
+    },
+    "TS_Practice_India|Sr. Developer": {
+      "practice": "TS_Practice_India",
+      "role": "Sr. Developer",
+      "bill_rate": 45,
+      "cost": 22,
+      "location": "India"
+    },
+    "TS_Practice_India|Technical Lead": {
+      "practice": "TS_Practice_India",
+      "role": "Technical Lead",
+      "bill_rate": 50,
+      "cost": 27,
+      "location": "Inda"
+    },
+    "TS_Practice_India|Sr. Data Engineer": {
+      "practice": "TS_Practice_India",
+      "role": "Sr. Data Engineer",
+      "bill_rate": 55,
+      "cost": 30,
+      "location": "India"
+    },
+    "TS_Practice_India|Sr. Technical Lead": {
+      "practice": "TS_Practice_India",
+      "role": "Sr. Technical Lead",
+      "bill_rate": 55,
+      "cost": 30,
+      "location": "India"
+    },
+    "TS_Practice_India|Project Manager": {
+      "practice": "TS_Practice_India",
+      "role": "Project Manager",
+      "bill_rate": 56,
+      "cost": 28,
+      "location": "India"
+    },
+    "TS_Practice_India|Service Delivery Manager": {
+      "practice": "TS_Practice_India",
+      "role": "Service Delivery Manager",
+      "bill_rate": 65,
+      "cost": 37,
+      "location": "India"
+    },
+    "TS_Practice_India|Solution Architect": {
+      "practice": "TS_Practice_India",
+      "role": "Solution Architect",
+      "bill_rate": 68,
+      "cost": 34,
+      "location": "India"
+    },
+    "ICSub_Contractor_USA|Contractor 1": {
+      "practice": "ICSub_Contractor_USA",
+      "role": "Contractor 1",
+      "bill_rate": 136,
+      "cost": 75,
+      "location": "USA"
+    },
+    "ICSub_Contractor_USA|Contractor 2": {
+      "practice": "ICSub_Contractor_USA",
+      "role": "Contractor 2",
+      "bill_rate": 223,
+      "cost": 145,
+      "location": "USA"
+    },
+    "ICSub_Contractor_USA|Contractor 3": {
+      "practice": "ICSub_Contractor_USA",
+      "role": "Contractor 3",
+      "bill_rate": 223,
+      "cost": 145,
+      "location": "USA"
+    },
+    "ICSub_Contractor_USA|Contractor 4": {
+      "practice": "ICSub_Contractor_USA",
+      "role": "Contractor 4",
+      "bill_rate": 223,
+      "cost": 145,
+      "location": "USA"
+    },
+    "ICSub_Contractor_USA|Contractor 5": {
+      "practice": "ICSub_Contractor_USA",
+      "role": "Contractor 5",
+      "bill_rate": 223,
+      "cost": 145,
+      "location": "USA"
+    },
+    "ICSub_Contractor_India|Contractor 1": {
+      "practice": "ICSub_Contractor_India",
+      "role": "Contractor 1",
+      "bill_rate": 136,
+      "cost": 75,
+      "location": "India"
+    },
+    "ICSub_Contractor_India|Contractor 2": {
+      "practice": "ICSub_Contractor_India",
+      "role": "Contractor 2",
+      "bill_rate": 223,
+      "cost": 145,
+      "location": "India"
+    },
+    "ICSub_Contractor_India|Contractor 3": {
+      "practice": "ICSub_Contractor_India",
+      "role": "Contractor 3",
+      "bill_rate": 223,
+      "cost": 145,
+      "location": "India"
+    },
+    "ICSub_Contractor_India|Contractor 4": {
+      "practice": "ICSub_Contractor_India",
+      "role": "Contractor 4",
+      "bill_rate": 223,
+      "cost": 145,
+      "location": "India"
+    },
+    "ICSub_Contractor_India|Contractor 5": {
+      "practice": "ICSub_Contractor_India",
+      "role": "Contractor 5",
+      "bill_rate": 223,
+      "cost": 145,
+      "location": "India"
+    },
+    "Donyati_Products_USA|DART": {
+      "practice": "Donyati_Products_USA",
+      "role": "DART",
+      "bill_rate": 4000,
+      "cost": 2600,
+      "location": "USA"
+    },
+    "Donyati_Products_USA|EPM Cloud Assurance": {
+      "practice": "Donyati_Products_USA",
+      "role": "EPM Cloud Assurance",
+      "bill_rate": 4000,
+      "cost": 2600,
+      "location": "USA"
+    }
+  },
+  "phases": [
+    "Mobilize",
+    "Requirements",
+    "Design",
+    "Build",
+    "Testing",
+    "Training",
+    "Parallel Testing",
+    "HyperCare"
+  ],
+  "deliverables_by_phase": {
+    "Mobilize": [
+      "Project Charter",
+      "RAID Logs",
+      "Project Schedule",
+      "Governance Structure",
+      "Communication Plan",
+      "Budget Tracker"
+    ],
+    "Requirements": [
+      "Requirements Traceability Matrix (RTM)",
+      "Requirements Workshops",
+      "Scope Alignment Documentation"
+    ],
+    "Design": [
+      "Design Document",
+      "Architecture Diagram",
+      "Data Mapping Document",
+      "Design Workshops"
+    ],
+    "Build": [
+      "Application Development",
+      "Data Integrations",
+      "Reports",
+      "Security Configuration",
+      "Instance Setup"
+    ],
+    "Testing": [
+      "Performance Test Plan",
+      "SIT Test Plan",
+      "UAT Scripts",
+      "Test Tracking (Jira)"
+    ],
+    "Training": [
+      "Training Materials",
+      "Train-the-Trainer Sessions",
+      "FAQ Sheets",
+      "Training Exercises"
+    ],
+    "Parallel Testing": [
+      "Parallel Test Support",
+      "Quarter End Close Support"
+    ],
+    "HyperCare": [
+      "Production Support",
+      "Issue Resolution"
+    ]
+  }
+}

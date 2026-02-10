@@ -1,0 +1,24 @@
+{
+  "name": "donyati-docs-sow",
+  "version": "1.0.0",
+  "description": "Generate SOW pricing Excel workbooks and convert them to professional Word documents with Donyati branding. Includes donsow and sowdoc skills.",
+  "author": {
+    "name": "Donyati"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matt-janecek/DonyatiDocs-sow"
+  },
+  "keywords": [
+    "excel",
+    "word",
+    "sow",
+    "pricing",
+    "branding",
+    "templates",
+    "donyati",
+    "donsow",
+    "sowdoc"
+  ],
+  "license": "MIT"
+}
